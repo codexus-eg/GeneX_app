@@ -62,4 +62,6 @@
 	<key>FirebaseAppDelegateProxyEnabled</key>
 	<true/>
 </dict>
+<key>NSCameraUsageDescription</key>
+<string>نحتاج للوصول إلى الكاميرا لمسح أكواد الـ QR داخل التطبيق.</string>
 </plist>
