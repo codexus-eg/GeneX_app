@@ -27,10 +27,12 @@ workflows:
       - name: Clean and Get Dependencies
         script: |
           flutter clean
-          flutter pub get
+          flutter pub upgrade  # استخدام upgrade بدلاً من get لتحديث الحزم
           cd ios
-          pod deintegrate
-          pod install --repo-update
+          rm -rf Pods           # مسح مجلد الـ Pods القديم
+          rm -rf Podfile.lock   # مسح ملف القفل القديم
+          pod repo update       # تحديث مستودع الـ Pods
+          pod install           # تثبيت الـ Pods من جديد
 
       - name: Apply Vault Profiles
         script: xcode-project use-profiles
