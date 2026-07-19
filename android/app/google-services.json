@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "854094728718",
+    "project_id": "mokamal-platform",
+    "storage_bucket": "mokamal-platform.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854094728718:android:19e65f6a1abe973defb65f",
+        "android_client_info": {
+          "package_name": "com.codenredstech.mokamal_online_platform"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt80Zq0k06FyyRhO_a53ZLr2m5hMb-ku0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
